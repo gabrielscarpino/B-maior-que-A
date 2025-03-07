@@ -16,7 +16,7 @@ form.addEventListener('submit', function(e) {
     const mensagemInsucesso = `O número B: ${numberB.value} não é maior que o número A: ${numberA.value} formulário inválido`;
     const mensagemSucesso= `O número B:${numberB.value} é maior que o número A:${numberA.value} formulário válido e submetido`;
 
-    formValido = validaForm(Number(numberA.value),(Number(numberB.value));
+    formValido = validaForm(Number(numberA.value),Number(numberB.value));
 
     if (!formValido) {
         alert(mensagemInsucesso)
